@@ -8,6 +8,7 @@ while i!=0:
 odd = 0
 even = 0
 for x in my_list:
+    x=int(x)
         if not x % 2:
     	     even+=1
         else:
