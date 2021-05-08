@@ -9,7 +9,7 @@ odd = 0
 even = 0
 for x in my_list:
     x=int(x)
-        if not x % 2:
+        if x % 2 ==0:
     	     even+=1
         else:
     	     odd+=1
