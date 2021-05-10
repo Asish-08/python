@@ -1,0 +1,6 @@
+>>> addr = 'monty@python.org'
+>>> (uname, domain) = addr.split('@')
+>>> print(uname)
+monty
+>>> print(domain)
+python.org
